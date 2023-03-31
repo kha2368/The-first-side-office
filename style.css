@@ -1,0 +1,218 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(235, 233, 239);
+  padding: 0% 100px;
+  border-top: solid rgb(3, 23, 77) 7px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: rgb(17, 98, 227);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  
+  
+
+}
+header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 14px ;
+  font-size: 25px;
+  transition: ease 1s;
+  font-size: 12px;
+  
+}
+header a:hover{
+  color: rgb(67, 14, 226);
+  font: size 70px;
+  display: inline-block;
+  
+  
+
+}
+.carsour{
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-image: url(images/The\ first\ side\ office.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+ background-position: center 20px 50px -18px 100px;
+  
+}
+.carsour div{
+  margin-left: 40px;
+}
+.carsour span{
+  color: rgb(8, 8, 8);
+}
+.carsour a {
+  color: rgb(39, 9, 237);
+  text-decoration: none;
+  background-color: rgb(199, 193, 214);
+  padding: 10px;
+  border-radius: 40px 0px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: ease 1s;
+  transform: scale(1);
+}
+.carsour h2{
+  text-align: center;
+  
+}
+.services h2 {
+  text-align: center;
+  margin: 35px 0px ;
+  font-size: 2rem;
+  color: rgb(62, 62, 232);
+
+}
+
+.services .container{
+  display: flex;
+  padding: calc(15px);
+  justify-content: center;
+  
+}
+.services .container{
+
+  flex-wrap: wrap;
+  background-color: white;
+}
+.services .card {
+  
+  margin-right:20px;
+  padding: 10px;
+  width: 16em;
+  height: 16em;
+  margin-bottom: 20px;
+  text-align: center;
+
+  background-color:rgb(50, 29, 156)
+
+
+}
+.card h3 {
+  color: rgb(229, 229, 241);
+  text-align: center;
+ font-size: large;
+  font-weight: bolder;
+  font-weight: bold;
+  font-size: 25px;
+
+
+  
+}
+.card p {
+  font: size 16px;
+  color: white;
+}
+.services .card > div{
+  color: rgb(241, 241, 251);
+  font-size: 25px;
+  scrollbar-width: 22px;
+  
+}
+.protofilio{
+  
+ padding: 50px;
+ border: 12px;
+ color: rgb(244, 248, 248);
+
+  
+
+}
+.protofilio img{
+  width: 20rem;
+  height: 20rem;
+}
+
+
+.notilla p {
+  font-size: 14px;
+}
+.notilla{
+  padding:50px 100px;
+  display: flex;
+  align-items: center;
+
+
+}
+.notilla h2{
+  color: blue;
+}
+.notilla-desc{
+  width: 60%;
+  text-align: center;
+
+}
+.notilla img{
+  width: 40%;
+  margin-right:30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0 40%);
+  overflow: hidden
+
+
+}
+.notilla-img-rtl{
+  margin-left: 30px !important;
+  margin-right: 0px !important;
+
+}
+.notilla-img img{
+  width:40% ;
+}
+.about{
+  padding: 50px;
+  background-image: url(images/THE\ FIRST\ SIDE11223\ 1.jpg);
+  min-height: 80vh;
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.about img {
+  border-radius: 50%;
+  width: 16rem;
+  height: 16rem;
+  margin: 20px;
+}
+ .map{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+
+ }
+ .map div{
+  width: 100% !important;
+  padding: 20px;
+  box-shadow: rgb(251, 251, 248) !important;
+ }
+ .map iframe{
+
+  width: 100% !important;
+
+ }
