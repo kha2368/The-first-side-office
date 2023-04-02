@@ -30,7 +30,7 @@ header{
 header a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  margin-right: 14px ;
+  margin-right: 30px ;
   font-size: 25px;
   transition: ease 1s;
   font-size: 12px;
@@ -61,7 +61,7 @@ header a:hover{
   margin-left: 40px;
 }
 .carsour span{
-  color: rgb(8, 8, 8);
+  color: rgb(255, 253, 253);
 }
 .carsour a {
   color: rgb(39, 9, 237);
@@ -82,7 +82,7 @@ header a:hover{
   text-align: center;
   margin: 35px 0px ;
   font-size: 2rem;
-  color: rgb(62, 62, 232);
+  color: rgb(150, 150, 221);
 
 }
 
@@ -169,7 +169,7 @@ header a:hover{
   margin-right:30px;
   border-radius: 10px;
   box-shadow: 0px 0px 2px rgb(0, 0, 0 40%);
-  overflow: hidden
+  
 
 
 }
